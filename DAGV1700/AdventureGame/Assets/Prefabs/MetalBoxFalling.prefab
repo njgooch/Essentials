@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7833103482053417413}
   - component: {fileID: 2788467588597953955}
   - component: {fileID: 4385539922525389437}
-  m_Layer: 6
+  m_Layer: 16
   m_Name: MetalBoxFalling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,7 +1692,7 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0

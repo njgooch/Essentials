@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1431015311220724402}
   - component: {fileID: 9115312551353322018}
   - component: {fileID: 4387207198646258143}
-  - component: {fileID: 1829955223067493760}
   m_Layer: 3
   m_Name: 'Player '
   m_TagString: Untagged
@@ -111,29 +110,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1829955223067493760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3304478687393150323}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73b906a25d8cb48368c332b2e95b749e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  acceleration: 40
-  deceleration: 40
-  airControlAmount: 0.5
-  gravityUp: -20
-  gravityDown: -40
-  jumpHeight: 1
-  jumpHoldTime: 0.25
-  jumpBufferTime: 0.2
-  coyoteTime: 0.15
-  lockZ: 1
 --- !u!1 &6804905982877556172
 GameObject:
   m_ObjectHideFlags: 0
