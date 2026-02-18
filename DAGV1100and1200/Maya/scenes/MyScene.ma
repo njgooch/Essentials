@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: MyScene.ma
-//Last modified: Tue, Feb 17, 2026 04:23:22 PM
+//Last modified: Tue, Feb 17, 2026 04:26:17 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "plant1" -rfn "plant1RN" -op "v=0;" -typ "mayaAscii" "/Users/nickgooch/Essentials/DAGV1100and1200/Maya//scenes/plant1.ma";
 file -rdi 1 -ns "mytable1" -rfn "mytableRN" -op "v=0;" -typ "mayaAscii" "/Users/nickgooch/Essentials/DAGV1100and1200/Maya//scenes/mytable.ma";
@@ -24,11 +24,11 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Mac OS X 15.7.3";
-fileInfo "UUID" "EE92A675-214E-B2AC-D3B3-CCB3EBCD47F8";
+fileInfo "UUID" "694D0241-AC45-399B-83E1-0B9386750938";
 createNode transform -s -n "persp";
 	rename -uid "BD2BDCC7-124C-EA46-9619-38B6E2DAC824";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -21.439712117424566 13.056052447110776 -19.992854991737794 ;
+	setAttr ".t" -type "double3" -30.062335555616855 17.661855797603611 -28.033581429855122 ;
 	setAttr ".r" -type "double3" -21.338352726709108 -492.99999999971163 0 ;
 	setAttr ".rp" -type "double3" 1.8735013540549517e-15 4.4408920985006262e-16 3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" -4.2362678458280224e-15 -8.3440403281601844e-16 -2.8610298323791926e-15 ;
@@ -37,7 +37,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 31.47262260092322;
+	setAttr ".coi" 44.13028198616702;
 	setAttr ".ow" 62.595342210893456;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
